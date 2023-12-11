@@ -2,7 +2,7 @@ import SwiftUI
 
 // https://www.hackingwithswift.com/books/ios-swiftui/understanding-frames-and-coordinates-inside-geometryreader
 
-struct SimpleGeoReaderView: View {
+struct GeometryReaderCoordinateSpaceView: View {
   var body: some View {
     OuterView()
       .background(.red)
@@ -46,8 +46,8 @@ struct InnerView: View {
   }
 }
 
-struct SimpleGeoReaderView_Previews: PreviewProvider {
+struct GeometryReaderCoordinateSpaceView_Previews: PreviewProvider {
   static var previews: some View {
-    SimpleGeoReaderView()
+    GeometryReaderCoordinateSpaceView()
   }
 }
