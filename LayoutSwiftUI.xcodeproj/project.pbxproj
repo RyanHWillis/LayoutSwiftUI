@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52BDEF272B272C5B00A889AD /* SimpleGeoReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDEF262B272C5B00A889AD /* SimpleGeoReaderView.swift */; };
+		52BDEF292B27341000A889AD /* ViewModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDEF282B27341000A889AD /* ViewModifierView.swift */; };
 		52F645752B271A13004BD723 /* LayoutSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F645742B271A13004BD723 /* LayoutSwiftUIApp.swift */; };
-		52F645772B271A13004BD723 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F645762B271A13004BD723 /* ContentView.swift */; };
+		52F645772B271A13004BD723 /* ExampleGeometryReaderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F645762B271A13004BD723 /* ExampleGeometryReaderScrollView.swift */; };
 		52F645792B271A16004BD723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F645782B271A16004BD723 /* Assets.xcassets */; };
 		52F6457C2B271A16004BD723 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F6457B2B271A16004BD723 /* Preview Assets.xcassets */; };
 		52F645862B271A17004BD723 /* LayoutSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F645852B271A17004BD723 /* LayoutSwiftUITests.swift */; };
 		52F645902B271A17004BD723 /* LayoutSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6458F2B271A17004BD723 /* LayoutSwiftUIUITests.swift */; };
 		52F645922B271A17004BD723 /* LayoutSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F645912B271A17004BD723 /* LayoutSwiftUIUITestsLaunchTests.swift */; };
+		52F6459F2B271A6D004BD723 /* UtilityExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F6459E2B271A6D004BD723 /* UtilityExtensions.swift */; };
+		52F645A12B271D5E004BD723 /* GeometryReaderSpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F645A02B271D5E004BD723 /* GeometryReaderSpaceView.swift */; };
+		52F645A32B271DD2004BD723 /* ExampleGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F645A22B271DD2004BD723 /* ExampleGridView.swift */; };
+		52F645A52B271E4B004BD723 /* AlignmentGuideContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F645A42B271E4B004BD723 /* AlignmentGuideContentView.swift */; };
+		52F645A72B271F0D004BD723 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 52F645A62B271F0D004BD723 /* README.md */; };
+		52F645A92B27225C004BD723 /* AbsolutePositioningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F645A82B27225C004BD723 /* AbsolutePositioningView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52BDEF262B272C5B00A889AD /* SimpleGeoReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGeoReaderView.swift; sourceTree = "<group>"; };
+		52BDEF282B27341000A889AD /* ViewModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierView.swift; sourceTree = "<group>"; };
 		52F645712B271A13004BD723 /* LayoutSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F645742B271A13004BD723 /* LayoutSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutSwiftUIApp.swift; sourceTree = "<group>"; };
-		52F645762B271A13004BD723 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52F645762B271A13004BD723 /* ExampleGeometryReaderScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleGeometryReaderScrollView.swift; sourceTree = "<group>"; };
 		52F645782B271A16004BD723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52F6457B2B271A16004BD723 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		52F645812B271A17004BD723 /* LayoutSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +54,12 @@
 		52F6458B2B271A17004BD723 /* LayoutSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LayoutSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F6458F2B271A17004BD723 /* LayoutSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutSwiftUIUITests.swift; sourceTree = "<group>"; };
 		52F645912B271A17004BD723 /* LayoutSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52F6459E2B271A6D004BD723 /* UtilityExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityExtensions.swift; sourceTree = "<group>"; };
+		52F645A02B271D5E004BD723 /* GeometryReaderSpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderSpaceView.swift; sourceTree = "<group>"; };
+		52F645A22B271DD2004BD723 /* ExampleGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleGridView.swift; sourceTree = "<group>"; };
+		52F645A42B271E4B004BD723 /* AlignmentGuideContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentGuideContentView.swift; sourceTree = "<group>"; };
+		52F645A62B271F0D004BD723 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		52F645A82B27225C004BD723 /* AbsolutePositioningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsolutePositioningView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +110,16 @@
 		52F645732B271A13004BD723 /* LayoutSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				52F645A62B271F0D004BD723 /* README.md */,
 				52F645742B271A13004BD723 /* LayoutSwiftUIApp.swift */,
-				52F645762B271A13004BD723 /* ContentView.swift */,
+				52F645762B271A13004BD723 /* ExampleGeometryReaderScrollView.swift */,
+				52F645A02B271D5E004BD723 /* GeometryReaderSpaceView.swift */,
+				52BDEF262B272C5B00A889AD /* SimpleGeoReaderView.swift */,
+				52F645A22B271DD2004BD723 /* ExampleGridView.swift */,
+				52F645A42B271E4B004BD723 /* AlignmentGuideContentView.swift */,
+				52F645A82B27225C004BD723 /* AbsolutePositioningView.swift */,
+				52BDEF282B27341000A889AD /* ViewModifierView.swift */,
+				52F6459E2B271A6D004BD723 /* UtilityExtensions.swift */,
 				52F645782B271A16004BD723 /* Assets.xcassets */,
 				52F6457A2B271A16004BD723 /* Preview Content */,
 			);
@@ -231,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52F645A72B271F0D004BD723 /* README.md in Resources */,
 				52F6457C2B271A16004BD723 /* Preview Assets.xcassets in Resources */,
 				52F645792B271A16004BD723 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +282,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52F645772B271A13004BD723 /* ContentView.swift in Sources */,
+				52F645772B271A13004BD723 /* ExampleGeometryReaderScrollView.swift in Sources */,
+				52F645A32B271DD2004BD723 /* ExampleGridView.swift in Sources */,
 				52F645752B271A13004BD723 /* LayoutSwiftUIApp.swift in Sources */,
+				52F645A12B271D5E004BD723 /* GeometryReaderSpaceView.swift in Sources */,
+				52F645A92B27225C004BD723 /* AbsolutePositioningView.swift in Sources */,
+				52F645A52B271E4B004BD723 /* AlignmentGuideContentView.swift in Sources */,
+				52F6459F2B271A6D004BD723 /* UtilityExtensions.swift in Sources */,
+				52BDEF272B272C5B00A889AD /* SimpleGeoReaderView.swift in Sources */,
+				52BDEF292B27341000A889AD /* ViewModifierView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
