@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		52BDEF272B272C5B00A889AD /* GeometryReaderCoordinateSpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDEF262B272C5B00A889AD /* GeometryReaderCoordinateSpaceView.swift */; };
 		52BDEF292B27341000A889AD /* ViewModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDEF282B27341000A889AD /* ViewModifierView.swift */; };
+		52BDEF312B27554E00A889AD /* Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDEF302B27554E00A889AD /* Accessibility.swift */; };
 		52F645752B271A13004BD723 /* LayoutSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F645742B271A13004BD723 /* LayoutSwiftUIApp.swift */; };
 		52F645772B271A13004BD723 /* GeometryReaderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F645762B271A13004BD723 /* GeometryReaderScrollView.swift */; };
 		52F645792B271A16004BD723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F645782B271A16004BD723 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* Begin PBXFileReference section */
 		52BDEF262B272C5B00A889AD /* GeometryReaderCoordinateSpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderCoordinateSpaceView.swift; sourceTree = "<group>"; };
 		52BDEF282B27341000A889AD /* ViewModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierView.swift; sourceTree = "<group>"; };
+		52BDEF302B27554E00A889AD /* Accessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility.swift; sourceTree = "<group>"; };
 		52F645712B271A13004BD723 /* LayoutSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F645742B271A13004BD723 /* LayoutSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutSwiftUIApp.swift; sourceTree = "<group>"; };
 		52F645762B271A13004BD723 /* GeometryReaderScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderScrollView.swift; sourceTree = "<group>"; };
@@ -113,6 +115,30 @@
 			path = AlignmentGuide;
 			sourceTree = "<group>";
 		};
+		52BDEF2D2B27550900A889AD /* AbsolutePosition */ = {
+			isa = PBXGroup;
+			children = (
+				52F645A82B27225C004BD723 /* AbsolutePositioningView.swift */,
+			);
+			path = AbsolutePosition;
+			sourceTree = "<group>";
+		};
+		52BDEF2E2B27551900A889AD /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				52BDEF282B27341000A889AD /* ViewModifierView.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		52BDEF2F2B27552D00A889AD /* Accessibility */ = {
+			isa = PBXGroup;
+			children = (
+				52BDEF302B27554E00A889AD /* Accessibility.swift */,
+			);
+			path = Accessibility;
+			sourceTree = "<group>";
+		};
 		52F645682B271A13004BD723 = {
 			isa = PBXGroup;
 			children = (
@@ -138,11 +164,12 @@
 			children = (
 				52F645A62B271F0D004BD723 /* README.md */,
 				52F645742B271A13004BD723 /* LayoutSwiftUIApp.swift */,
+				52BDEF2F2B27552D00A889AD /* Accessibility */,
+				52BDEF2D2B27550900A889AD /* AbsolutePosition */,
 				52BDEF2C2B273C6B00A889AD /* AlignmentGuide */,
 				52BDEF2A2B273BAE00A889AD /* GeometryReader */,
+				52BDEF2E2B27551900A889AD /* ViewModifier */,
 				52BDEF2B2B273BC100A889AD /* GridView */,
-				52F645A82B27225C004BD723 /* AbsolutePositioningView.swift */,
-				52BDEF282B27341000A889AD /* ViewModifierView.swift */,
 				52F6459E2B271A6D004BD723 /* UtilityExtensions.swift */,
 				52F645782B271A16004BD723 /* Assets.xcassets */,
 				52F6457A2B271A16004BD723 /* Preview Content */,
@@ -311,6 +338,7 @@
 				52F645752B271A13004BD723 /* LayoutSwiftUIApp.swift in Sources */,
 				52F645A12B271D5E004BD723 /* GeometryReaderSpaceView.swift in Sources */,
 				52F645A92B27225C004BD723 /* AbsolutePositioningView.swift in Sources */,
+				52BDEF312B27554E00A889AD /* Accessibility.swift in Sources */,
 				52F645A52B271E4B004BD723 /* AlignmentGuideContentView.swift in Sources */,
 				52F6459F2B271A6D004BD723 /* UtilityExtensions.swift in Sources */,
 				52BDEF272B272C5B00A889AD /* GeometryReaderCoordinateSpaceView.swift in Sources */,
