@@ -1,5 +1,7 @@
 import SwiftUI
 
+// Full Apple Doc https://developer.apple.com/documentation/swiftui/view-accessibility
+
 struct AccessibilityInfo: View {
   var body: some View {
     Image("puppy-1")
