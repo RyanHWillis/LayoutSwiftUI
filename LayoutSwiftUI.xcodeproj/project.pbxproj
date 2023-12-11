@@ -100,9 +100,17 @@
 		52BDEF2B2B273BC100A889AD /* GridView */ = {
 			isa = PBXGroup;
 			children = (
-				52F645A42B271E4B004BD723 /* AlignmentGuideContentView.swift */,
+				52F645A22B271DD2004BD723 /* ExampleGridView.swift */,
 			);
 			path = GridView;
+			sourceTree = "<group>";
+		};
+		52BDEF2C2B273C6B00A889AD /* AlignmentGuide */ = {
+			isa = PBXGroup;
+			children = (
+				52F645A42B271E4B004BD723 /* AlignmentGuideContentView.swift */,
+			);
+			path = AlignmentGuide;
 			sourceTree = "<group>";
 		};
 		52F645682B271A13004BD723 = {
@@ -130,8 +138,8 @@
 			children = (
 				52F645A62B271F0D004BD723 /* README.md */,
 				52F645742B271A13004BD723 /* LayoutSwiftUIApp.swift */,
+				52BDEF2C2B273C6B00A889AD /* AlignmentGuide */,
 				52BDEF2A2B273BAE00A889AD /* GeometryReader */,
-				52F645A22B271DD2004BD723 /* ExampleGridView.swift */,
 				52BDEF2B2B273BC100A889AD /* GridView */,
 				52F645A82B27225C004BD723 /* AbsolutePositioningView.swift */,
 				52BDEF282B27341000A889AD /* ViewModifierView.swift */,
