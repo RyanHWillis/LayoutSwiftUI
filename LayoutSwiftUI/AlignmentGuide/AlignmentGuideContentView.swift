@@ -6,7 +6,7 @@ struct CustomAlignmentGuideContentView: View {
       VStack {
         Text("------>")
           .alignmentGuide(.midAccountAndName) { d in d[VerticalAlignment.center] }
-        Image("paul-hudson")
+        Image("puppy-1")
           .resizable()
           .frame(width: 64, height: 64)
       }
