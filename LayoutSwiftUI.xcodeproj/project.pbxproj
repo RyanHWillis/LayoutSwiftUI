@@ -11,6 +11,7 @@
 		52BDEF292B27341000A889AD /* ViewModifierView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDEF282B27341000A889AD /* ViewModifierView.swift */; };
 		52BDEF312B27554E00A889AD /* Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BDEF302B27554E00A889AD /* Accessibility.swift */; };
 		52C798C32B2764FA002975CE /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C798C22B2764FA002975CE /* Animation.swift */; };
+		52C798C62B286D0B002975CE /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C798C52B286D0B002975CE /* Navigation.swift */; };
 		52F645752B271A13004BD723 /* LayoutSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F645742B271A13004BD723 /* LayoutSwiftUIApp.swift */; };
 		52F645772B271A13004BD723 /* GeometryReaderScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F645762B271A13004BD723 /* GeometryReaderScrollView.swift */; };
 		52F645792B271A16004BD723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52F645782B271A16004BD723 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 		52BDEF282B27341000A889AD /* ViewModifierView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierView.swift; sourceTree = "<group>"; };
 		52BDEF302B27554E00A889AD /* Accessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accessibility.swift; sourceTree = "<group>"; };
 		52C798C22B2764FA002975CE /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		52C798C52B286D0B002975CE /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		52F645712B271A13004BD723 /* LayoutSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LayoutSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52F645742B271A13004BD723 /* LayoutSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutSwiftUIApp.swift; sourceTree = "<group>"; };
 		52F645762B271A13004BD723 /* GeometryReaderScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderScrollView.swift; sourceTree = "<group>"; };
@@ -149,6 +151,14 @@
 			path = Animation;
 			sourceTree = "<group>";
 		};
+		52C798C42B286CE8002975CE /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				52C798C52B286D0B002975CE /* Navigation.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		52F645682B271A13004BD723 = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +184,7 @@
 			children = (
 				52F645A62B271F0D004BD723 /* README.md */,
 				52F645742B271A13004BD723 /* LayoutSwiftUIApp.swift */,
+				52C798C42B286CE8002975CE /* Navigation */,
 				52BDEF2F2B27552D00A889AD /* Accessibility */,
 				52BDEF2D2B27550900A889AD /* AbsolutePosition */,
 				52BDEF2C2B273C6B00A889AD /* AlignmentGuide */,
@@ -347,6 +358,7 @@
 				52C798C32B2764FA002975CE /* Animation.swift in Sources */,
 				52F645772B271A13004BD723 /* GeometryReaderScrollView.swift in Sources */,
 				52F645A32B271DD2004BD723 /* ExampleGridView.swift in Sources */,
+				52C798C62B286D0B002975CE /* Navigation.swift in Sources */,
 				52F645752B271A13004BD723 /* LayoutSwiftUIApp.swift in Sources */,
 				52F645A12B271D5E004BD723 /* GeometryReaderSpaceView.swift in Sources */,
 				52F645A92B27225C004BD723 /* AbsolutePositioningView.swift in Sources */,
